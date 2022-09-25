@@ -1,1 +1,14 @@
-# Making-it-out-of-the-NBA
+# Making it out of the NBA
+### An examination of Basketball Players moving from the NBA to major European leagues
+
+### Abstract
+
+Every year, there is an influx of players moving from the NBA to major European leagues. NBA players are sought by European teams as the NBA attracts the best talents on a global scale and are considered far more superior than their European colleagues. European teams invest large amounts of money (usually the biggest portion of their budgets) to sign NBA players and they expect them to outperform the current roster players. However, this is not often the case. This research aims to examine the journey of NBA players to major European leagues and to find the characteristics that distinguish successful signings.
+
+By scraping player data from the 2000-2001 season until now for the NBA, Euroleague and 7 major European leagues, I calculated the performance of players in Europe by using the Box Plus Minus (BPM) and Value Over Replacement Player (VORP) metrics. Both BPM and VORP are widely accepted and widely used metrics of player performance and estimate each player’s contribution to the team. After all the necessary transformations, I was able to identify the players that moved from the NBA to Europe and see which ones were successful.
+
+One of my hypotheses for this analysis is that playing style is of great importance to a player’s fit and eventual success in European Basketball. I followed the methodology of Kalman & Bosch and created player clusters using Gaussian Mixture Models to generate player types according to their tendencies. Another important factor is the age or the career stage of each player. Several researches have shown that players peak at 27 years old. Most players move overseas when they’re approaching retirement or when they can’t get significant minutes. Some of them even when they have a significant role in their team. I identified 3 groups of career stages according to the above for my analysis. Other variables that were included are experience in the NBA and its quadratic, draft position, recruiting rank position, college division, minutes played and VORP.
+
+By running supervised machine learning models, I was able to find which characteristics affect the success of NBA players coming to Europe and assess their economic impact. The results show that lower draft position has a significant negative influence on success abroad and that experienced players past their prime are less probable to succeed. Moreover, player type, recruiting rank, minutes played and VORP are not significant predictors of success.
+
+These results can be extremely valuable to Front Office Executives of European teams who seek to get a good return on their investment and now are able to better estimate each player’s success. Furthermore, by making advanced player performance metrics of European players (such as BPM and VORP) publicly available for the first time, this work enriches European Basketball in general as Basketball Analytics in Europe are close to non-existent and significantly lag behind the NBA.
